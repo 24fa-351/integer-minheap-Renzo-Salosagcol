@@ -1,0 +1,13 @@
+all: asst6.o
+
+asst6.o: asst6.c heap.o
+	gcc -o asst6 asst6.c heap.o
+
+heap.o: heap.c
+	gcc -c heap.c -o heap.o
+
+clear: 
+	rm -f asst6 heap.o output.txt
+
+run: asst6.o
+	./asst6 > output.txt

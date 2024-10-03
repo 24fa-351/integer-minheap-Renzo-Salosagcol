@@ -1,0 +1,6 @@
+all: main
+
+asst6.o: asst6.o heap.o
+	gcc o- asst6 asst6.c heap.o
+
+heap.o: 

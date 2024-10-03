@@ -5,7 +5,7 @@
 #include "heap.h"
 
 /*
-Assignment 6: integer minheap
+Assignment 5: integer minheap
 */
 
 unsigned long long rand_between(unsigned long long min,
