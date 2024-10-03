@@ -1,0 +1,7 @@
+all: asst6.o
+
+asst6.o: asst6.c heap.o
+	gcc -o asst6 asst6.o heap.o
+
+heap.o: heap.c
+	gcc -c heap.c -o heap.o
